@@ -12,6 +12,10 @@ repositories {
 	mavenCentral()
 }
 
+bootRun {
+	main = 'com.example.demo.DemoApplication'
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
